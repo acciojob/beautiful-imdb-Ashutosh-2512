@@ -1,2 +1,48 @@
-
-/* Your CSS Code here. */
+body{
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #d7d7d7;
+}
+.card{
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0,7);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(135deg, #025d06, #c8ff00);
+    color: #000000;
+}
+.moviePic{
+    margin: 10px;
+	height : 275px;
+	width : 400px;
+	opacity:90%;
+    flex: 1;
+    width: 380px;
+}
+.movieDetail{
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align:justify;
+    text-shadow: #000000;
+    font-weight: bold;
+    width: 380px;
+    top: -10px;
+    position: relative;
+}
+.readm{
+    margin: 10px;
+    margin-bottom: 20px;
+    color: rgb(0, 65, 185);
+    text-decoration: underline;
+    cursor: pointer;
+}
